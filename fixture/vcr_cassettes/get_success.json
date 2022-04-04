@@ -1,0 +1,26 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://localhost:4000/api/canvas/7fbfa03e-9935-46d3-9644-cb45f1a308fa"
+    },
+    "response": {
+      "binary": false,
+      "body": "\n\n   @@@@@\n   @XXX@  XXXXXXXXXXXXXX\n   @@@@@  XOOOOOOOOOOOOX\n          XOOOOOOOOOOOOX\n          XOOOOOOOOOOOOX\n          XOOOOOOOOOOOOX\n          XXXXXXXXXXXXXX",
+      "headers": {
+        "cache-control": "max-age=0, private, must-revalidate",
+        "content-length": "160",
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Mon, 04 Apr 2022 11:32:27 GMT",
+        "server": "Cowboy",
+        "x-request-id": "FuKse3NBCmehBekAAAAF"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
