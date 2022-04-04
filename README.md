@@ -1,21 +1,15 @@
 # CanvasClient
 
-**TODO: Add description**
+Canvas HTTP client to fetch canvases in text format
 
-## Installation
+## Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `canvas_client` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:canvas_client, "~> 0.1.0"}
-  ]
-end
+```
+  mix canvas_client.get --host=http://localhost:4000 --uuid=7fbfa03e-9935-46d3-9644-cb45f1a3085a
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/canvas_client](https://hexdocs.pm/canvas_client).
+## Testing
 
+```
+  mix test
+```
